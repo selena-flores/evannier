@@ -1,0 +1,105 @@
+body {
+    background-image: url("assets/bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .9);
+    background-blend-mode: darken;
+    color: yellow;
+    overflow: auto;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.promo{
+    position: relative;
+    border-color: crimson;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url("assets/sigil.gif");
+    background-color: rgba(0, 0, 0, .9);
+    background-blend-mode: exclusion;
+    background-position: fixed;
+    background-size: cover;
+    text-align: center;
+    width: 80vw;
+    height: 40vh;
+    padding: 1em;
+    margin: 5vw;
+}
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    padding: 1em;
+    text-align: center;
+}
+
+#links {
+    position: absolute;
+    bottom: 0;
+    font-size: xx-large;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+button {
+    position: absolute;
+    font-family: inherit;
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: crimson;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    padding: 1em;
+    margin: auto;
+    font-size: 1em;
+}
+
+.content {
+    display: none;
+    border-color: crimson;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url("assets/sigil.gif");
+    background-color: rgba(0, 0, 0, .9);
+    background-blend-mode: exclusion;
+    background-position: fixed;
+    background-size: cover;
+    position: absolute;
+    padding: 1em;
+    top: 50%;
+    left: 50%;
+    width: 80vw;
+    height: 40vh;
+    margin: -20vh 0 0 -40vw;
+    z-index: 15;
+    overflow: auto;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    right: 0;
+    top: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
