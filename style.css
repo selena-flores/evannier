@@ -1,8 +1,8 @@
 body {
-    background-image: url("assets/bg.gif");
+    background-image: url("evannier_site_assets/bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .2);
     background-blend-mode: darken;
     color: yellow;
     overflow: auto;
@@ -63,6 +63,18 @@ button {
     font-size: 1em;
 }
 
+.active{
+    color:yellow;
+}
+
+#about_content{
+    background-image: url("evannier_site_assets/FRAME\ 2.png");
+}
+
+/* #contact_content{
+    background-image: url("evannier_site_assets/FRAME\ 2.png");
+} */
+
 .content {
     display: none;
     border-color: crimson;
@@ -78,8 +90,8 @@ button {
     top: 50%;
     left: 50%;
     width: 80vw;
-    height: 40vh;
-    margin: -20vh 0 0 -40vw;
+    height: 50vh;
+    margin: -25vh 0 0 -42.5vw;
     z-index: 15;
     overflow: auto;
 }
